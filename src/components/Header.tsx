@@ -6,7 +6,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#111] text-white">
+    <header className="bg-[#111] text-white sticky top-0 z-100">
       <div className="max-w-[1300px] mx-auto flex items-center justify-between px-6 lg:px-12 py-4">
   
         <div className="flex items-center gap-10">
